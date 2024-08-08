@@ -72,6 +72,7 @@
   font-size: var(--page-font-size);
   line-height: 18px;
   padding: 0 13px;
+  width: 70px;
   height: 26px;
   cursor: pointer;
   color: var(--button-color);
