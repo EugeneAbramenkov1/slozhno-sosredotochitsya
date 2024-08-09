@@ -326,8 +326,8 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding: 80px 10px 40px 10px;
-    gap: 80px;
+    padding: 40px 10px 40px 10px;
+    gap: 50px;
   }
 
   .header__theme-menu {
@@ -357,7 +357,6 @@
   }
 
   .main__container__section:nth-child(2) {
-    margin-top: -30px;
     grid-template-columns: 1fr;
     row-gap: 20px;
     width: 100%;
@@ -371,7 +370,6 @@
   .main__container__section:first-child,
   .main__container__section:nth-child(3) {
     grid-template-columns: 1fr;
-    margin-top: -35px;
   }
 
   .main__container__section:nth-child(2) .main__section-title {
