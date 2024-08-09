@@ -356,6 +356,10 @@
     row-gap: 20px;
   }
 
+  .section__content{
+    row-gap: 9px;
+  }
+
   .main__container__section:nth-child(2) {
     grid-template-columns: 1fr;
     row-gap: 20px;
@@ -378,7 +382,6 @@
 
 
   .main__img__section {
-    margin-top: -30px;
     gap: 10px;
     display: flex;
     flex-direction: column;
