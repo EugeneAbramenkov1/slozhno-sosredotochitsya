@@ -345,7 +345,7 @@
     gap: 10px;
   }
   .header__description {
-    padding-top: 70px;
+    padding-top: 60px;
     gap: 55px;
   }
   .header__description__title {
@@ -357,6 +357,7 @@
   }
 
   .main__container__section:nth-child(2) {
+    margin-top: -20px;
     grid-template-columns: 1fr;
     row-gap: 20px;
     width: 100%;
@@ -370,6 +371,7 @@
   .main__container__section:first-child,
   .main__container__section:nth-child(3) {
     grid-template-columns: 1fr;
+    margin-top: -40px;
   }
 
   .main__container__section:nth-child(2) .main__section-title {
@@ -378,6 +380,7 @@
 
 
   .main__img__section {
+    margin-top: -40px;
     gap: 10px;
     display: flex;
     flex-direction: column;
