@@ -322,7 +322,13 @@
 
 @media (width < 768px) {
 
-  
+  .main__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 40px 10px 40px 10px;
+    gap: 80px;
+  }
 
   .header__theme-menu {
     place-self: center end;
@@ -335,11 +341,11 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    padding-top: 55px;
+    padding-top: 75px;
     gap: 10px;
   }
   .header__description {
-    padding-top: 65px;
+    padding-top: 70px;
     gap: 55px;
   }
   .header__description__title {
