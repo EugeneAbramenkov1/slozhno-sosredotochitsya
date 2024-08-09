@@ -6,7 +6,7 @@
   background-color: var(--background-color);
   background-image: var(--background-image);
   background-repeat: no-repeat;
-
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -105,7 +105,7 @@
 }
 
 .header__description__title {
-  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   text-shadow: 4px 4px 0 var(--title-shadow-color);
   line-height: 82.5%;
   color: var(--header__description__title__color);
@@ -275,7 +275,7 @@
 
 @media (768px <= width < 1024px) {
   .header__description__title {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
   .header__theme-menu {
     padding-top: 170px;
@@ -291,7 +291,7 @@
     gap: 162px;
   }
   .footer-title {
-    font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .main__container__section:first-child {
