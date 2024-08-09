@@ -18,6 +18,7 @@
   height: 100vh;
   min-height: 668px;
   padding-top: 20px;
+  padding-right: 20px;
 }
 
 .rec_marker {
@@ -161,7 +162,7 @@
 
 .main__container__section:nth-child(2) .section__title {
   grid-column: span 3;
-  width: 20%;
+  min-width: 30%;
 }
 
 .main__container__section:nth-child(3) {
