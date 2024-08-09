@@ -321,6 +321,9 @@
 }
 
 @media (width < 768px) {
+
+  
+
   .header__theme-menu {
     place-self: center end;
     height: max-content;
@@ -346,8 +349,9 @@
   .main__container__section:first-child {
     row-gap: 20px;
   }
+
   .main__container__section:nth-child(2) {
-    
+    grid-template-columns: 1fr;
     row-gap: 20px;
     width: 100%;
   }
@@ -366,9 +370,6 @@
     width: 100%;
   }
 
-  .main__container__section:nth-child(2) .section__title {
-    grid-column: span 1;
-  }
 
   .main__img__section {
     gap: 10px;
