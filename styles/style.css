@@ -154,7 +154,7 @@
   grid-row: span 2;
 }
 
-.main__container__section__decrease__concentration  {
+.main__container__section__decrease__concentration {
   column-gap: 20px;
   row-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -322,7 +322,6 @@
 }
 
 @media (width < 768px) {
-
   .main__container {
     display: flex;
     justify-content: space-between;
@@ -377,7 +376,6 @@
     width: 100%;
   }
 
-
   .main__img__section {
     gap: 10px;
     display: flex;
@@ -388,7 +386,7 @@
     top: 10px;
     right: 10px;
   }
-  
+
   .decorated-zone::after {
     bottom: 10px;
     left: 10px;
