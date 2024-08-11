@@ -1,5 +1,5 @@
 .page.theme_dark {
-  --header__description__title__color: #DB00FF;
+  --header-description-title-color: #DB00FF;
   --accent-color: #ff0070;
   --border-color: #FF0070;
   --button-color: #FF0070;
@@ -12,8 +12,6 @@
   --background-image: url(../images/cover-image-dark.png);
   --text-color: #f1b2ce;
   --description-color: #000028;
-
-  background-image: url(../images/cover-image-dark.png);
 }
 
 .page.theme_dark .rec_marker {
